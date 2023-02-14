@@ -1,0 +1,59 @@
+@import "../assets/colors";
+@import "../assets/variables";
+.auth-container{
+    border-radius: .5rem;
+    background-color: white;
+    position: relative;
+    input{
+        font-size: 1.2rem;
+        padding: 1.3rem 5rem 1.2rem .5rem;
+        border: 1px solid $gray;
+        border-radius: .5rem;
+    }
+    .input-group{
+        gap: 5px;
+        label{
+            color: $gray;
+        }
+    }
+    .hide-box{
+        position: absolute;
+        height: 100px;
+        width: 10px;
+        z-index: 10;
+        top:0;
+        left: 0;
+        background-image: url("../r/images/login_background.jpg");
+    }
+    #facebook-icon, #instagram-icon{
+        color: $gray;
+        font-size: 3rem;
+    }
+    .auth-container-submit{
+        button{
+            background-color: $textPurple1;
+            color: white;
+            border: none;
+            font-size: 1.5rem;
+            padding: 1.3rem .5rem 1.3rem .5rem;
+            border-radius: 0.5rem;
+        }
+    }
+    .auth-container-login{
+        .register-btn{
+            font-size: 1.5rem;
+            a{
+                color: $textPurple1;
+            }
+        }
+    }
+    .auth-container-register{
+        .login-btn{
+            font-size: 1.5rem;
+            a{
+                color: $textPurple1;
+            }
+        }
+    }
+}
+

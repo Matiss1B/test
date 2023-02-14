@@ -1,0 +1,34 @@
+@import "assets/colors";
+@import "assets/variables";
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: $mainPurple;
+    font-family: 'Varela Round', sans-serif;
+}
+//Fonts
+html{
+    font-size: 10px;
+}
+label{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+h1{
+    font-size: 2rem;
+    margin: 0;
+}
+h2{
+    font-size: 3rem;
+    margin: 0;
+}
+h3{
+     font-size: 3rem;
+     margin: 0;
+}
+p{
+    font-size: 1.5rem;
+    margin:0
+}
